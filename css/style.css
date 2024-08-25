@@ -12,12 +12,17 @@ p, a{
     font-size: 1.6rem;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 .upper{
     text-transform: uppercase;
 }
 
 .wrapperContainer-dark{
     background-color: #2a2a2a;
+    color: #fafafa;
 }
 
 .wrapperContainer-light{
@@ -26,4 +31,37 @@ p, a{
 
 .wrapperContainer-dark2{
     background-color: #003464;
+    color: #fafafa;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_logo{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.header_nav a{
+    margin-left: 1.6rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    border: solid 1px;
+    padding: .50em 1.2em;
+}
+
+.header_nav{
+    list-style-type: none;
+    display: flex;
+    gap: .8rem;
 }
