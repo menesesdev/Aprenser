@@ -12,12 +12,30 @@ p, a{
     font-size: 1.6rem;
 }
 
+h1{
+    font-size: 4.8rem;
+}
+
 nav a {
     text-decoration: none;
 }
 
 .upper{
     text-transform: uppercase;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.2rem;
+    background-color: #2a2a2a;
+    color: var(--primary-color);
+}
+.btn:hover{
+    transition: .4s;
+    background-color: #0d0d0d;
 }
 
 .wrapperContainer-dark{
@@ -58,10 +76,26 @@ nav a {
     text-decoration: none;
     border: solid 1px;
     padding: .50em 1.2em;
+    border-radius: 1px;
+}
+
+.header_nav a:hover{
+    background-color: #0d0d0d;
+    transition: .4s;
 }
 
 .header_nav{
     list-style-type: none;
     display: flex;
     gap: .8rem;
+}
+
+.wrapperContainer-hero{
+    background-color: var(--primary-color);
+}
+
+.heroBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
