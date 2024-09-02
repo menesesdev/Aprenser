@@ -33,7 +33,12 @@ nav a {
     text-transform: uppercase;
 }
 
+.section_btn{
+    margin: 3.5rem 0;
+}
+
 .btn {
+    display: inline-block;
     background-color: var(--primary-color);
     border-radius: 4px;
     font-size: 1.8rem;
@@ -104,6 +109,18 @@ nav a {
     gap: .8rem;
 }
 
+.section_title{
+    text-align: center;
+    font-size: 3.7rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    padding: 3.5rem;
+}
+
+.section_btn{
+    margin-top: 20px;
+}
+
 .wrapperContainer-hero {
     background-color: var(--primary-color);
 }
@@ -121,10 +138,17 @@ nav a {
 .cursosContainer {
     display: flex;
     text-align: left;
+    gap: 2rem;
 }
 
 .curso_card {
     flex: 1
+}
+
+.curso_card img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .curso_card h3 {
