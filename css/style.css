@@ -159,3 +159,13 @@ nav a {
     padding: 1rem;
 }
 
+.escola{
+    display: flex;
+    gap: 6rem;
+    padding-top: 6rem;
+}
+
+.escola p{
+    font-size: 1.8rem;
+    line-height: 2.50rem;
+}
